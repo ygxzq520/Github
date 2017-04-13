@@ -1,0 +1,19 @@
+作业一：
+
+/*解决的问题：
+ * 第一点：在struts。xml 中extends="struts-default"若是去掉则会导致jsp页面运行时出现404错误
+ * 第二点：若把jsp文件放在WEB-INF里面，则会导致jsp页面不可见，出现404错误，因为WEB-INF中的文件不能被直接访问
+ * 第三点：WebRoot中的文件是默认路径
+ * 第四点：在Action中传入Tip的值： setTip(getNumber1()+"-"+getNumber2()+"="+result);
+ *      在结果页面中获取Tip的值： <s:property value="Tip"></s:property>
+ * 第五点：快捷键的使用： 注释   Ctrl+Shift+/   去注释：Ctrl+Shift+\
+                	 选择上一行：Shift+上键  
+                	 往后选择：Shift+右键
+  
+ 未解决的问题：（已解决）
+1.document.forms[0]	表示获取当前页面的第一个表单
+  （3）document.forms['exportServlet']：表示获取当前页面的name="exportServlet"的表单
+   
+2.在struts.xml继承struts-default时警告，因为package的name属性 重命名了
+*/
+9
